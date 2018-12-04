@@ -540,7 +540,7 @@
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
-	
+	/*#222629*/
 	#header
 	{
 		position: fixed;
@@ -549,7 +549,7 @@
 		width: 375px;
 		height: 100%;
 		color: #fff;
-		background: #222629 url('images/overlay.png');
+		background: #0e0c27 url('images/overlay.png');
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0,0,0,0.1);
 		text-align: right;
 	}
@@ -642,7 +642,7 @@
 				{
 					display: block;
 					padding: 0.5em 1.5em 0.5em 1.5em;
-					color: rgba(255,255,255,0.5);
+					color: #acdbff;
 					text-decoration: none;
 					outline: 0;
 					border: 0;
@@ -672,18 +672,19 @@
 
 					#nav ul li a.active
 					{
-						background: rgba(0,0,0,0.15);
+						background: #02001b;
 						box-shadow: inset 0 0 0.25em 0 rgba(0,0,0,0.125);
 						color: #fff;
 					}
 
 						#nav ul li a.active span
 						{
+							color: #2793e6;
 						}
 
 							#nav ul li a.active span:before
 							{
-								color: #8EBEBC;
+								color: #2793e6;
 							}
 
 /*********************************************************************************/
